@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./app",
+    "target": "es6",
+    "paths": {
+      "@app/assets": [
+        "./src/assets/*"
+      ],
+      "@app/components": [
+        "./src/components/*"
+      ],
+      "@app/hocs": [
+        "./src/hocs/*"
+      ],
+      "@app/pages": [
+        "./src/pages/*"
+      ],
+      "@app/services": [
+        "./src/services/*"
+      ],
+      "@app/store": [
+        "./src/store/*"
+      ],
+    }
+  },
+  "include": [
+    "app"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
