@@ -1,32 +1,30 @@
 {
-  "compilerOptions": {
-    "baseUrl": "./app",
-    "target": "es6",
-    "paths": {
-      "@app/assets": [
-        "./src/assets/*"
-      ],
-      "@app/components": [
-        "./src/components/*"
-      ],
-      "@app/hocs": [
-        "./src/hocs/*"
-      ],
-      "@app/pages": [
-        "./src/pages/*"
-      ],
-      "@app/services": [
-        "./src/services/*"
-      ],
-      "@app/store": [
-        "./src/store/*"
-      ],
+    "include": ["app/src/**/*"],
+    "compilerOptions": {
+        "baseUrl": "./",
+        "module": "ES6",
+        "paths": {
+            "@app/assets/*": [
+                "app/src/assets/*"
+            ],
+            "@app/components/*": [
+                "app/src/components/*"
+            ],
+            "@app/containers/*": [
+                "app/src/containers/*"
+            ],
+            "@app/hocs/*": [
+                "app/src/hocs/*"
+            ],
+            "@app/pages/*": [
+                "app/src/pages/*"
+            ],
+            "@app/services/*": [
+                "app/src/services/*"
+            ],
+            "@app/store/*": [
+                "app/src/store/*"
+            ]
+        }
     }
-  },
-  "include": [
-    "app"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
 }

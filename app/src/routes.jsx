@@ -12,35 +12,11 @@ const routes = [
         loader: () => ({ config }),
         children: [
             {
-                id: "home",
-                path: 'home',
-                element: withDynamicImport('FileSystemNavigator').containers({ navigation: 'home' }),
+                id: "file-system-navigator",
+                path: ':path/*',
+                element: withDynamicImport('FileSystemNavigator').containers(),
                 errorElement: <></>,
-            },
-            {
-                id: "documents",
-                path: 'documents',
-                element: withDynamicImport('FileSystemNavigator').containers({ navigation: 'documents' }),
-                errorElement: <></>,
-            },
-            {
-                id: "images",
-                path: 'images',
-                element: withDynamicImport('FileSystemNavigator').containers({ navigation: 'images' }),
-                errorElement: <></>,
-            },
-            {
-                id: "music",
-                path: 'music',
-                element: withDynamicImport('FileSystemNavigator').containers({ navigation: 'music' }),
-                errorElement: <></>,
-            },
-            {
-                id: "work",
-                path: 'work',
-                element: withDynamicImport('FileSystemNavigator').containers({ navigation: 'work' }),
-                errorElement: <></>,
-            },
+            }
         ]
     }
 ];

@@ -60,8 +60,8 @@ function FileSystemItem({ config, item, onClick }) {
 FileSystemItem.propTypes = {
     config: PropTypes.shape({
         theme: PropTypes.shape({
-            primaryColor: PropTypes.string.isRequired,
-            secondaryColor: PropTypes.string.isRequired,
+            hoverColor: PropTypes.string.isRequired,
+            clickColor: PropTypes.string.isRequired,
         })
     }).isRequired,
     item: PropTypes.shape({
