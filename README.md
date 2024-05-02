@@ -1,6 +1,6 @@
 # fe-react-poc-nfs (Proof of concept, Network File System)
 
-![](C:\Users\User\Desktop\fe-react-poc-nfs\docs\preview.png)
+![](./docs/preview.png)
 
 ## 1.Guida all'Installazione e all'Avvio
 
@@ -62,8 +62,6 @@ Questo comando rimuoverà la cartella `node_modules`, `.yarn-cache`, `.vite`, e 
 
 Seguendo questi passaggi, sarai in grado di installare correttamente il progetto sul tuo sistema locale, avviarlo in modalità di sviluppo e creare una build ottimizzata per la produzione. Assicurati di seguire attentamente i passaggi e di soddisfare tutti i requisiti di sistema necessari.
 
-
-
 ## 2.Documentazione Generale
 
 ### Obiettivo del Progetto e Contesto
@@ -105,8 +103,6 @@ Il progetto è un proof-of-concept di una tecnologia che replica il funzionament
 - **Altre Tecnologie:** Utilizzo di altre librerie e strumenti come framer-motion per le animazioni e faker-js per la generazione di dati fittizi durante lo sviluppo.
 
 La scelta di queste tecnologie è motivata dalla loro affidabilità, dalla loro popolarità nella comunità degli sviluppatori e dalla loro capacità di soddisfare i requisiti specifici del progetto.
-
-
 
 ## 3.Struttura del Codice Sorgente
 
