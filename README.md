@@ -64,9 +64,9 @@ Seguendo questi passaggi, sarai in grado di installare correttamente il progetto
 
 ## 2.Documentazione Generale
 
-### Obiettivo del Progetto e Contesto
+### Scope del Progetto
 
-Il progetto è un proof-of-concept di una tecnologia che replica il funzionamento di un network file system lato client, simile a Google Drive. L'obiettivo principale è sviluppare una toolchain ottimale per lo sviluppo e la produzione di applicazioni frontend, con particolare attenzione alla struttura modulare, alla gestione dello stato globale e all'utilizzo avanzato delle rotte dinamiche e del caricamento a runtime di codice React.
+Il progetto è un proof-of-concept di una tecnologia che replica il funzionamento di un network file system lato client, simile a Google Drive. Lo Scope principale è sviluppare una toolchain ottimale per lo sviluppo e la produzione di applicazioni frontend, con particolare attenzione alla struttura modulare, alla gestione dello stato globale e all'utilizzo avanzato delle rotte dinamiche e del caricamento a runtime di codice React.
 
 #### Funzionalità Principali del Progetto
 
