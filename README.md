@@ -164,3 +164,7 @@ Per navigare all'interno del progetto, puoi seguire questa guida:
 6. **Rotte:** Le rotte dell'applicazione sono definite nel file `routes.jsx`, dove vengono associati i percorsi URL ai componenti delle pagine utilizzando React Router DOM.
 
 Navigare all'interno del progetto seguendo questa struttura ti permetterà di individuare rapidamente i diversi componenti, container e servizi utilizzati nell'applicazione.
+
+## License
+
+This project is licensed under the terms of the MIT License - see the `LICENSE` file for full details.
