@@ -1,12 +1,12 @@
 {
   "name": "fe-react-poc-nfs",
-  "private": false,
   "license": "MIT",
   "version": "0.1.0",
   "engines": {
-    "node" : ">=20.0.0"
+    "node": ">=20.0.0"
   },
   "type": "module",
+  "packageManager": "yarn@4.3.0",
   "scripts": {
     "start:dev": "vite",
     "start:prod": "vite preview",
