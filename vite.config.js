@@ -12,7 +12,7 @@ import path from 'path'
 export default defineConfig({
   root: path.resolve(__dirname, 'app'),
   base: './',
-  publicDir: '/public',
+  publicDir: './public',
   cacheDir: path.resolve(__dirname, '.vite'),
   plugins: [
     react(),
