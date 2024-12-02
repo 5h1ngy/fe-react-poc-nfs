@@ -12,11 +12,7 @@
 
 A proof-of-concept application simulating a client-side network file system like Google Drive, developed with React. This project focuses on creating an optimal frontend toolchain for scalable and maintainable applications.
 
----
-
 ![NFS Demo](./assets/preview.png) <!-- Placeholder: Replace with actual image -->
-
----
 
 ## **Features**
 
@@ -27,13 +23,9 @@ A proof-of-concept application simulating a client-side network file system like
 ✅ Reusable UI components with Chakra UI.  
 ✅ NFS-like functionalities for managing and navigating files.  
 
----
-
 ## **Important Notice**
 🚨 This project is a Proof of Concept (PoC) and is not intended for production use. It is not actively maintained or updated.
 The purpose of this project is to demonstrate a concept or explore a technical implementation. There may be bugs or outdated dependencies.
-
----
 
 ## **Installation**
 
@@ -63,8 +55,6 @@ Make sure you have the following installed:
    NODE_ENV=development
    ```
 
----
-
 ## **Usage**
 
 ### Development Mode
@@ -85,8 +75,6 @@ Remove generated files and dependencies:
 yarn clean
 ```
 
----
-
 ## **Project Structure**
 
 ```
@@ -101,8 +89,6 @@ src/
 ├── index.jsx        # Entry point
 └── routes.jsx       # Route definitions
 ```
-
----
 
 ## **Documentation**
 
@@ -119,13 +105,9 @@ The application replicates NFS-like functionalities using:
 - **Framer Motion**: Smooth animations.
 - **Faker.js**: Mock data generation.
 
----
-
 ## **License and Data Attribution**
 
 This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## **Author**
 
