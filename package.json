@@ -1,7 +1,32 @@
 {
   "name": "fe-react-poc-nfs",
-  "license": "MIT",
   "version": "0.1.0",
+  "description": "Proof of Concept (PoC) for a client-side Network File System (NFS) simulation using React, Redux, Chakra UI, and TypeScript. Features dynamic routing, runtime code splitting, and reusable UI components.",
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "react",
+    "redux",
+    "chakra-ui",
+    "nfs",
+    "network-file-system",
+    "proof-of-concept",
+    "typescript",
+    "javascript",
+    "dynamic-routing",
+    "runtime-code-splitting",
+    "ui-components",
+    "file-management",
+    "react-router",
+    "state-management",
+    "web-application",
+    "frontend-toolchain"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/5h1ngy/fe-react-poc-nfs.git"
+  },
+  "author": "5h1ngy",
   "engines": {
     "node": ">=20.0.0"
   },
